@@ -1,8 +1,10 @@
 # Multithread-for-C-Plus 
 
 `互斥量模板类`
->C++标准库为互斥量提供了RAII模板类 std::lock_guard ，在构造时就能提供已锁的互斥量，并在析构时进行解
+>C++标准库为互斥量提供了RAII模板类 `std::lock_guard` ，在构造时就能提供已锁的互斥量，并在析构时进行解
 锁，从而保证了互斥量能被正确解锁
+
+>对于无需修改的访问可以使用`std::shared_lock`
 
 
 
